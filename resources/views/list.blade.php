@@ -34,7 +34,7 @@
                     @foreach ($data as $key => $item)
                         <tr>
                             <th scope="row">{{ $key+1 }}</th>
-                            <td>{{$item->hashid}}</td>
+                            <td>{{$item->id}}</td>
                             <td>{{$item->name}}</td>
                             <td>{{$item->email}}</td>
                             <td>{{$item->created_at->diffForHumans()}}</td>
